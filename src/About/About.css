@@ -1,0 +1,119 @@
+
+
+.conteiner {
+    display: grid;
+    max-width: 1500px;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+    grid-template: "He He He" 200px
+        "Bo Bo Na"
+        "Bo Bo Na"
+        "Fo Fo Fo"
+}
+
+@media (max-width: 768px) {
+    .conteiner {
+        grid-template: "He He He" 200px
+            "Bo Bo Bo"
+            "Na Na Na"
+            "Fo Fo Fo"
+
+    }
+}
+
+.div-1 {
+    width: 100%;
+    grid-area: He;
+
+}
+
+.div-2 {
+    margin-top: 150px;
+    grid-area: Bo;
+
+}
+
+.div-3 {
+    margin-top: 130px;
+    margin-left: 50px;
+    grid-area: Na;
+
+}
+
+@media (max-width: 768px) {
+    .div-3 {
+        margin: 0px auto;
+        width: 400px;
+
+    }
+}
+
+.div-4 {
+    grid-area: Fo;
+
+}
+
+/*карусель див*/
+.carousel.slide {
+    margin: 0px auto;
+    width: 650px;
+    height: 450px;
+
+}
+
+@media (max-width: 768px) {
+    .carousel.slide {
+        max-width: 400px;
+
+    }
+}
+
+/*сама карусель*/
+.carousel-inner {
+    border-radius: 10px;
+    
+}
+@media (max-width: 768px) {
+    .carousel-inner {
+        max-height: 300px;
+
+    }
+}
+/*cosmo38*/
+.foot {
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 0%;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid black
+}
+
+.infra {
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 0%;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid black
+}
+
+/*текст боди*/
+.text {
+    margin-top: 100px;
+    font: 500 20px / 35px Arial; 
+    padding: 20px;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .carousel.slide {
+        display: flex;
+        margin-bottom: 20px;
+
+    }
+}
+h1{
+    padding-bottom:30px;
+    padding-top: 30px;
+}

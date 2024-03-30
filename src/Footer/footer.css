@@ -1,0 +1,22 @@
+.adv-list {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+    padding-bottom: 100px;
+}
+
+.adv-card{
+    width: 300px;
+    background-color: rgb(209, 211, 211);
+    margin: 25px;
+    padding: 15px;
+    border-radius: 15px;
+    
+    
+}
+.adv-text{
+    padding-top: 20px;
+}
