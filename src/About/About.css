@@ -2,7 +2,7 @@
 
 .conteiner {
     display: grid;
-    max-width: 1500px;
+    max-width: 1250px;
     padding-bottom: 100px;
     box-sizing: border-box;
     grid-template: "He He He" 200px

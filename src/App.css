@@ -4,7 +4,7 @@
   position: relative;
   margin: 0 auto;
   box-sizing: border-box;
-  max-width: 1500px;
+  max-width: 1250px;
   padding-bottom: 100px;
   grid-template: "H H H H"
     "H H H H"
@@ -55,7 +55,7 @@
 
 .body-fon {
   border-radius: 10px;
-  max-width: 1500px;
+  max-width: 1250px;
   background-attachment: fixed;
 }
 
@@ -82,7 +82,7 @@
 /*Фото справо от вып списка*/
 .sec-img {
 
-  background: transparent url('./image/1avto698766655.jpg') no-repeat 900px -150px;
+  background: transparent url('./image/1avto698766655.jpg') no-repeat 800px -120px;
   background-size: 40%;
 
 }

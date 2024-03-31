@@ -38,6 +38,10 @@ function footer() {
                         Прибудем в&nbsp;любую точку по&nbsp;городу Иркутску и&nbsp;Иркутской обл</p>
                     </li>
 
+                    <li class="adv-card">
+                        <p className="adv-text"></p>
+                    </li>
+
                 </ul>
 
 
