@@ -73,7 +73,7 @@ section {
 .message {
 
   position: fixed;
-  right: 50px;
+  right: 100px;
   bottom: 50px;
   text-align: right;
   color: rgb(10, 47, 197);
@@ -107,6 +107,7 @@ section {
   font-size: 20px;
   border: 0.5px solid rgb(207, 205, 205);
   padding: 5px;
+  margin-right: 20px;
   border-radius: 10px;
   box-shadow: 10px 10px 10px rgb(164, 163, 163);
   background-color: rgb(246, 248, 248);

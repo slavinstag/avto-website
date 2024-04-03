@@ -8,7 +8,7 @@ function footer() {
   return (
 
     <>
-        <h1>Преимущества</h1>
+        <h2 className='foot-h'>Преимущества</h2>
                 <ul className="adv-list">
                     <li className="adv-card adv-svg-1">
                         

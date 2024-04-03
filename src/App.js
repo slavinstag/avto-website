@@ -28,7 +28,7 @@ function App() {
     setExpanded_3(!expanded_3);
   };
   return (
-    <div className="content">
+    <div className="main-body">
 
       <header className="Header">
         <Header />

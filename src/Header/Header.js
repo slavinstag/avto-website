@@ -14,7 +14,7 @@ function Header() {
     <div className="Hed Hed-2">
 
       <address className="hed-1">
-        <img className="address" alt="Avto_Diagnost" width={80} src={phhoneOne} />
+        <img className="address" alt="Avto_Diagnost" width={60} src={phhoneOne} />
         По телефону: <a className='address-text'  href="tel:+77778889900"><br/>+7(999)6429-321 </a ><br/>
         По эл. почте: <a className='address-text' href="mailto:alarm8619@gmail.com" > alarm8619@gmail.com </a> 
       </address>

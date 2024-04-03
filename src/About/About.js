@@ -2,12 +2,10 @@ import React from 'react';
 import './About.css';
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer.js";
-import KAR_1 from "../image/We/KAR_1.jpg";
-import KAR_2 from "../image/We/KAR_2.jpg";
-import KAR_3 from "../image/We/KAR_3.jpg";
-import cosmo_38 from "../image/We/cosmo_38.jpg";
-import teleg112332 from "../image/We/teleg112332.png";
-import infra38 from "../image/We/infra38.jpg";
+import kar1 from "../image/We/kar1.jpg";
+import kar22 from "../image/We/kar22.jpg";
+import kar33 from "../image/We/kar33.jpg";
+
 
 
 
@@ -26,13 +24,13 @@ function About() {
         <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img src={KAR_1} className="d-block w-100" alt="f1" />
+              <img src={kar1} className="d-block w-100" alt="Фото наши работы" />
             </div>
             <div className="carousel-item">
-              <img src={KAR_2} className="d-block w-100" alt="f2" />
+              <img src={kar22} className="d-block w-100" />
             </div>
             <div className="carousel-item">
-              <img src={KAR_3} className="d-block w-100" alt="f3" />
+              <img src={kar33} className="d-block w-100" />
             </div>
           </div>
           <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -45,7 +43,7 @@ function About() {
           </button>
         </div>
         <article className='text'>
-          <h1>Услуги автоэлектрика - диагноста.</h1>
+          <h2>Услуги автоэлектрика - диагноста.</h2>
           <p> Решаем широкий спектр проблем с&nbsp;электрикой автомобиля, включая обслуживание, диагностику и&nbsp;ремонт.Наша основная задача выявить
             неисправность вашего автомобиля, и&nbsp;если возможно, ее&nbsp;устранить на&nbsp;месте, то&nbsp;мы&nbsp;обязательно это сделаем.
             Благодаря нашему опыту, мы&nbsp;гарантируем качественное обслуживание и&nbsp;решение проблем с&nbsp;электроникой в&nbsp;кратчайшие
@@ -66,26 +64,23 @@ function About() {
         </article>
       </div>
       <div className="div-3" >
-        <div className="foot">
-          <h3>Наши рекомендации:</h3><p />
-          <a href='https://moya-kosmetika-irkutsk.ru/'>
-            <img className="cosmo" src={cosmo_38} />
-            <p>Перейти на сайт</p>
-          </a>
-          <h5>Косметика из Израиля и Кореи<p /> в Иркутске от представителей завода</h5>
-          <a href='https://t.me/cosmo38'>
-            <img className="cosmo-telegram" src={teleg112332} width={80} height={50} /> </a>
+
+        <h3 className='we-foot'>Наши рекомендации:</h3>
+
+        <div className='card-we card-img'>
+          <p className='card-text-we'>Косметика из&nbsp;Израиля и&nbsp;Кореи в&nbsp;Иркутске от&nbsp;представителей завода</p>
+          <a className='web-we' href='https://moya-kosmetika-irkutsk.ru/' target='my cosmo'> Перейти на сайт &gt;&gt;</a>
+          <a className='web-we telegram-img' href='https://t.me/cosmo38' target='my cosmo 2'></a>
         </div>
-        <div className='infra'>
-          <a href='https://infra-snab.ru/'>
-            <img className="cosmo" src={infra38} />
-            <p>Перейти на сайт</p>
-          </a>
-          <h5>Инфракрасные обогреватели<p />и светодиодные светильники<p /> в Иркутске от представителей завода </h5>
+        <br />
+        <div className='card-we card-img-2'>
+          <p className='card-text-we'>Инфракрасные обогреватели и&nbsp;светодиодные светильники
+            в&nbsp;Иркутске от&nbsp;представителей завода</p>
+          <a className='web-we' href='https://infra-snab.ru/' target='infra'> Перейти на сайт &gt;&gt;</a>
         </div>
       </div>
       <footer className="div-4" >
-<Footer/>
+        <Footer />
       </footer>
     </div>
 

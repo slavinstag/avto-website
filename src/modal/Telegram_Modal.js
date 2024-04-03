@@ -21,7 +21,7 @@ function Telegram_Modal() {
   return (
     <div>
       <div className={teg} onClick={handleSmallWindowClick}>
-        <img className='img-massage' src={PhoneMassage233} width={80} alt='massage'/>
+        <img className='img-massage' src={PhoneMassage233} width={60} alt='massage'/>
       </div>
 
       {isBigWindowOpen && (

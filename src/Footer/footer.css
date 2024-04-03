@@ -9,7 +9,7 @@
 }
 
 .adv-card{
-    max-width: auto;
+    max-width: 250px;
     max-height: 200px;
     background-color: rgb(209, 211, 211) !important;
     margin-bottom: 15px;
@@ -22,18 +22,24 @@
 }
 .adv-text{
     padding-top: 55px;
+    font-size: 12px;
 }
 
 .adv-svg-1{
-    background: transparent url('../image/svg/airplan5544433.svg') no-repeat 20px 10px/50px;
+    background:  url('../image/svg/airplan5544433.svg') no-repeat 20px 10px/50px;
 }
 .adv-svg-2{
-    background: transparent url('../image/svg/crypto455574.svg') no-repeat 20px 10px/50px;
+    background:  url('../image/svg/crypto455574.svg') no-repeat 20px 10px/50px;
 }
 .adv-svg-3{
-    background: transparent url('../image/svg/nout3445.svg') no-repeat 20px 10px/50px;
+    background:  url('../image/svg/nout3445.svg') no-repeat 20px 10px/50px;
 }
 .adv-svg-4{
-    background: transparent url('../image/svg/phonenav23334.svg') no-repeat 20px 10px/50px;
+    background:  url('../image/svg/phonenav23334.svg') no-repeat 20px 10px/50px;
 
+}
+.foot-h{
+    padding: 30px 0px;
+    color: rgb(80, 80, 80);
+    font-size: 25px;
 }

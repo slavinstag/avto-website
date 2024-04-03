@@ -1,7 +1,7 @@
 
 .Hed{
   
-  max-width: 1600px;
+  max-width: 100%;
   min-height: 200px;
   position: relative;
   
@@ -18,7 +18,8 @@ margin: 0 auto;
   right: 0px;
   top: 10px;
   z-index: 66;
-  padding:20px 90px;
+  padding-top: 20px;
+  padding-right: 225px;
   text-align: right;
   transition: transform 2s;
 }
@@ -40,7 +41,7 @@ margin: 0 auto;
   color:rgb(39, 4, 144);
   font-weight: 700;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 /*Кнопки меню о нас и прайс*/
@@ -49,17 +50,17 @@ margin: 0 auto;
   flex-direction: row;
   justify-content: left;
   font-weight: 600;
-  font-size: 26px;
+  font-size: 20px;
   max-width: 1250px;
   margin: 0 auto;
   height: 80px;
   text-decoration: none;
   cursor: pointer;
-  max-height: 80px;
+  max-height: 50px;
   margin-top: 50px;
+  padding-top: 5px;
+  padding-left: 10px;
   border-radius: 10px;
-  padding-top: 15px;
-  padding-left: 20px;
   background-color: rgb(209, 211, 211);
 }
 @media(max-width:768px){
