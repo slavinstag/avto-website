@@ -2,9 +2,9 @@ import './normalize.css';
 import React, { useState } from 'react';
 import './App.css';
 import Telegram_Modal from "./modal/Telegram_Modal";
-import Avto_Fon_2023 from "./image/Avto_Fon_2023.jpg";
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer.js";
+
 
 
 function App() {
@@ -12,6 +12,8 @@ function App() {
   const [expanded_1, setExpanded_1] = useState(false);
   const [expanded_2, setExpanded_2] = useState(false);
   const [expanded_3, setExpanded_3] = useState(false);
+ 
+
 
   const handleExpand = () => {
     setExpanded(!expanded);
@@ -31,15 +33,17 @@ function App() {
       <header className="Header">
         <Header />
         <div className="Header-1">
-          <Telegram_Modal />
+          <Telegram_Modal/>
         </div>
       </header>
 
       <main className="Body">
-        <section className="sec-1">
-        <img className='body-fon' src={Avto_Fon_2023}/>
+        <section className="sec-1 body-fon">
         </section>
         <section className="sec-2 sec-img ">
+       
+    
+     
           <ul className="row-text">
           <li className='text-down img-down' onClick={handleExpand}>Kомпьютерная диагностика 
           {expanded && <div className="open-text-2">Выездная компьютерная диагностика профессиональными <br /> мультимарочными и&nbsp;мономарочными сканерами</div>}</li>

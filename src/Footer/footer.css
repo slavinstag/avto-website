@@ -1,7 +1,7 @@
 .adv-list {
 	display: flex;
 	flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
 	list-style-type: none;
 	margin: 0;
 	padding-left: 0;
@@ -9,16 +9,31 @@
 }
 
 .adv-card{
-    width: 300px;
-    background-color: rgb(209, 211, 211);
-    margin: 25px;
+    max-width: auto;
+    max-height: 200px;
+    background-color: rgb(209, 211, 211) !important;
+    margin-bottom: 15px;
     padding: 15px;
     border-radius: 15px; 
 }
-/*К последнему элементу карточки*/
-.adv-card:last-child {
-    background-color: transparent ;
+.adv-card:not(last-child){
+    margin-right: 15px;
+    width: 400px;
 }
 .adv-text{
-    padding-top: 20px;
+    padding-top: 55px;
+}
+
+.adv-svg-1{
+    background: transparent url('../image/svg/airplan5544433.svg') no-repeat 20px 10px/50px;
+}
+.adv-svg-2{
+    background: transparent url('../image/svg/crypto455574.svg') no-repeat 20px 10px/50px;
+}
+.adv-svg-3{
+    background: transparent url('../image/svg/nout3445.svg') no-repeat 20px 10px/50px;
+}
+.adv-svg-4{
+    background: transparent url('../image/svg/phonenav23334.svg') no-repeat 20px 10px/50px;
+
 }

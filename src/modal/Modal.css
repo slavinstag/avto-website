@@ -74,7 +74,7 @@ section {
 
   position: fixed;
   right: 50px;
-  bottom: 250px;
+  bottom: 50px;
   text-align: right;
   color: rgb(10, 47, 197);
   font: 500 15px / 50px Helvetica;
@@ -96,17 +96,17 @@ section {
 
 /*Открывающиеся окно для отправки сообщения*/
 .message_1 {
-  margin-left: 10px;
+ 
   width: 400px;
   height: 400px;
   position: fixed;
   right: 10px;
-  bottom: 100px;
+  bottom: 50px;
   text-align: right;
   color: rgb(179, 11, 145);
   font-size: 20px;
   border: 0.5px solid rgb(207, 205, 205);
-  padding: 10px;
+  padding: 5px;
   border-radius: 10px;
   box-shadow: 10px 10px 10px rgb(164, 163, 163);
   background-color: rgb(246, 248, 248);

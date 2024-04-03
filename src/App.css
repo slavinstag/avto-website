@@ -13,11 +13,10 @@
 
 }
 
-@media (max-width: 768px) {
-  .content {
-
-    min-width: 768px;
-  }
+handleExpand_1{
+  background-color: #1ad614 !important;
+  color: #34ac0f;
+  font-size: 50px;
 }
 
 .Header {
@@ -44,13 +43,29 @@
 }
 
 
+@media(max-width:768px){
+  .body-fon{
+    background-attachment:local;
+  }
+  .row-text{
+ justify-content: center;
 
+  }
+  .sec-img{
+   display: none;
+  }
+}
 
 /*Фото скороя помощь основной фон*/
+
+.body-fon{
+  background: url('./image/Avto_Fon_2023.jpg') no-repeat top center/contain;
+
+}
 .sec-1 {
   margin-top: 100px;
-  width: 80%;
-  height: 400px;
+  max-width: 1250px;
+  height: 534px;
 }
 
 .body-fon {
@@ -72,18 +87,15 @@
 
 /*Выпадающие списки*/
 .sec-2 {
-  width: 100%;
-  min-height: 500px;
-  margin-top: 250px;
-
-
+  margin: 150px 0px;
+  
 }
 
 /*Фото справо от вып списка*/
 .sec-img {
 
-  background: transparent url('./image/1avto698766655.jpg') no-repeat 800px -120px;
-  background-size: 40%;
+  background:url('./image/1avto698766655.jpg') no-repeat 800px -120px/40%;
+
 
 }
 

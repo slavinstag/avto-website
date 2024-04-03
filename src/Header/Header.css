@@ -8,9 +8,9 @@
 margin: 0 auto;
 }
 /*Телефон с фото*/
-.Hed_1 {
-  width: 500px;
-  height: 250px;
+.hed-1 {
+  max-width: 500px;
+  max-height: 250px;
   background-color: transparent;
   color: rgb(113, 113, 114);
   font-weight: 500;
@@ -22,8 +22,10 @@ margin: 0 auto;
   text-align: right;
   transition: transform 2s;
 }
-
-.Hed_1:hover {
+.Test{
+  color: blueviolet;
+}
+.Hed-1:hover {
 
   transform: scale(1.1);
 
@@ -42,8 +44,10 @@ margin: 0 auto;
 }
 
 /*Кнопки меню о нас и прайс*/
-.Hed_3 {
+.Hed-3 {
   display: flex;
+  flex-direction: row;
+  justify-content: left;
   font-weight: 600;
   font-size: 26px;
   max-width: 1250px;
@@ -58,7 +62,18 @@ margin: 0 auto;
   padding-left: 20px;
   background-color: rgb(209, 211, 211);
 }
+@media(max-width:768px){
+  .Hed-3{
+    justify-content: center;
+  }
+  .hed-1{
+ display: none;
 
+  }
+  .Hed-2{
+   width: 1200px;
+  }
+}
 
 
 
@@ -105,12 +120,11 @@ margin: 0 auto;
 }
 
 /*Фото машинка*/
-.Hed_2 {
+.Hed-2 {
   background-image: url('../image/svg/logo1111112.svg');
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: 5%;
-
   padding-top: 8%;
   height: 80px;
 

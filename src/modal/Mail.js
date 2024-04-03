@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-import './modal/Modal.css';
+import './Modal.css';
 
 
 const Mail = () => {
   const [message, setMessage] = useState('');
-
-
+  let pole =document.getElementsByClassName('input_1');
+  let butt =document.getElementsByClassName('but_1');
+  console.log(pole);
   const botToken = '6328894082:AAG3S6o_TtsgLPWkp3DKN7WixnIjg7tjGT4';
   const chatId = '-4138437435';
 
@@ -22,8 +23,7 @@ const Mail = () => {
       .catch(error => {
         console.error('Произошла ошибка при отправке сообщения,попробуйте позже', error);
       });
-      
-      
+     
   };
   
   return (

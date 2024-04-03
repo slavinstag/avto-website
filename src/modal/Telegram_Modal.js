@@ -3,21 +3,18 @@ import useModal from './useModal';
 import PhoneMassage233 from '../image/svg/PhoneMassage233.svg';
 import React from 'react';
 import './Modal.css';
-import Mail from '../Mail';
+import Mail from './Mail';
 
-const clouse = () => {
-  window.location.reload();
-}
 
 function Telegram_Modal() {
   const [isBigWindowOpen, setIsBigWindowOpen] = useState(false);
   let teg = "message";
-
+  
   const handleSmallWindowClick = () => {
     setIsBigWindowOpen(!isBigWindowOpen);
   };
-  if (isBigWindowOpen === false) {
-
+  const clouse = () => {
+    setIsBigWindowOpen(isBigWindowOpen=== false);
   }
 
 
