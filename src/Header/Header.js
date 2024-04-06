@@ -4,7 +4,8 @@ import './Header.css';
 import phhoneOne from '../image/svg/phhoneOne.svg';
 import PriceMod from "../modal/PriceMod";
 
-function Header() {
+
+function Header(props) {
   
 
 
@@ -22,8 +23,11 @@ function Header() {
       <nav className="Hed-3">
         <Link id="z1" to="/">&nbsp;Главная&nbsp;&nbsp;&nbsp;&nbsp;</Link>
         <Link id="z2" to="/About">&nbsp;О Нас</Link>
-        <a id="z3" href="#"><PriceMod /></a>
+        <a id="z3" href="#"><PriceMod/></a>
+       
       </nav>
+      
+     
     </div>
 
 

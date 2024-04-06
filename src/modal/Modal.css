@@ -13,7 +13,7 @@ section {
   height: 100%;
   z-index: 99;
   background-color: rgba(11, 11, 11, 0.9);
-
+ 
 }
 
 
@@ -31,13 +31,16 @@ section {
   position: fixed;
   left: 50%;
   top: 50%;
-  width: 85vw;
-  height: 90vh;
+  max-width: 90%;
+  margin-top: 0;
+  max-height: 80%;
   transform: translate(-50%, -50%);
   box-shadow: 10px 5px 5px rgb(5, 5, 5, .4);
   text-align: center;
   font-weight: 400;
   font-size: 17px;
+  overflow: scroll;
+  
 
 }
 
@@ -53,7 +56,7 @@ section {
 
 /*Таблица прайса цен*/
 .table.table-bordered.border-primary {
-  margin-top: 100px;
+  margin-top: 50px;
   border-radius: 10px;
 
 }
@@ -68,6 +71,7 @@ section {
   margin-top: 250px;
 
 }
+
 
 /*Надпись задать вопрос диагносту*/
 .message {
@@ -90,9 +94,7 @@ section {
   color: rgb(184, 15, 21);
 }
 
-@media (max-width: 768px) {
-  .message {}
-}
+
 
 /*Открывающиеся окно для отправки сообщения*/
 .message_1 {
@@ -147,4 +149,19 @@ section {
   font-weight: 600;
   text-align: right;
   cursor: grab;
+}
+@keyframes zoomAnimation {
+  0% {
+    transform: scale(1);  /* начальный размер изображения */
+  }
+  50% {
+    transform: scale(1.2); 
+   
+  }
+  100% {
+    transform: scale(1);  /* возвращаем к исходному размеру */
+  }
+}
+.img-massage {
+  animation: zoomAnimation 3s infinite; /* 4s - длительность анимации (2с на увеличение, 2с на уменьшение), 2s - периодичность */
 }
